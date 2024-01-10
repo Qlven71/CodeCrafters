@@ -1,0 +1,114 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+
+  /* Start/Home Page Styles */
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .text-block,
+  .image {
+    flex: 1;
+  }
+  
+  .text-block {
+    background-color: #eee;
+    padding: 20px;
+  }
+  
+  .image {
+    text-align: center;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  .social-links a img {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    max-width:50px;
+    height:auto;
+  }
+
+  
+  
+  /* About Us Page Styles */
+  .about-content {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .transparent-image {
+    opacity: 0.5;
+    max-width: 100%;
+  }
+  
+  /* Contact Us Page Styles */
+  .contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .contact-image {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #333;
+    text-align: center;
+    padding: 30px 1px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius:20px;
+    margin: 10px;
+
+    
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+  }
+  nav img {
+    height: 40px; 
+    vertical-align: middle;
+    margin-right: 10px;
+  }
